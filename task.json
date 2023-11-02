@@ -1,6 +1,6 @@
 {  
    "ipcMode": null,  
-   "executionRoleArn": "<Role ARN>",  
+   "executionRoleArn": "arn:aws:iam::832249129843:role/ecsTaskExecutionRole",  
    "containerDefinitions": [  
        {  
            "dnsSearchDomains": null,  
@@ -28,7 +28,7 @@
            "memoryReservation": 128,  
            "volumesFrom": [],  
            "stopTimeout": null,  
-           "image": "<+primary.artifact.image>",  
+           "image": "docker.io/nginx",  
            "startTimeout": null,  
            "firelensConfiguration": null,  
            "dependsOn": null,  
