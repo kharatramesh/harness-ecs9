@@ -1,8 +1,7 @@
 {  
-    "cluster": "ecs1",
     "launchType": "FARGATE",  
     "serviceName": "myapp", 
-    "taskDefinition": "task31",
+    "taskDefinition": "fargate-task-definition",
     "desiredCount": 1,  
     "networkConfiguration": {  
         "awsvpcConfiguration": {  
