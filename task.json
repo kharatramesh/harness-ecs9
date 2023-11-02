@@ -50,7 +50,7 @@
    ],  
    "placementConstraints": [],  
    "memory": "512",  
-   "taskRoleArn": "<Role ARN>",  
+   "taskRoleArn": "arn:aws:iam::832249129843:role/ecsInstanceRole",  
    "family": "fargate-task-definition",  
    "pidMode": null,  
    "requiresCompatibilities": [  
