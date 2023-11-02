@@ -5,10 +5,10 @@
     "networkConfiguration": {  
         "awsvpcConfiguration": {  
             "securityGroups": [  
-                "<Security Group Id>"  
+                "sg-00ab88fadc12cf79a"  
             ],  
             "subnets": [  
-                "<Subnet Id>"  
+                "subnet-0b4a81a90506cf251"  
             ],  
             "assignPublicIp": "ENABLED"  
         }  
